@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("Choose a measurement")
+        Spacer()
+            .frame(height: 20)
+        HStack(content: {
+            CupView(text: "mL", measurement: 1)
+            CupView(text: "oz", measurement: 2)
+        })
+        
     }
 }
 

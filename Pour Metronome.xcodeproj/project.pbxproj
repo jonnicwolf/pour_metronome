@@ -15,6 +15,9 @@
 		3E276C792B91712A00D97629 /* Pour_Metronome_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E276C782B91712A00D97629 /* Pour_Metronome_Watch_AppTests.swift */; };
 		3E276C832B91712A00D97629 /* Pour_Metronome_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E276C822B91712A00D97629 /* Pour_Metronome_Watch_AppUITests.swift */; };
 		3E276C852B91712A00D97629 /* Pour_Metronome_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E276C842B91712A00D97629 /* Pour_Metronome_Watch_AppUITestsLaunchTests.swift */; };
+		3E67C69B2B97CDF100E868AA /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C69A2B97CDF100E868AA /* Polygon.swift */; };
+		3E67C69D2B9A3D9500E868AA /* CupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C69C2B9A3D9500E868AA /* CupView.swift */; };
+		3E67C69F2B9A47DC00E868AA /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C69E2B9A47DC00E868AA /* MetronomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		3E276C7E2B91712A00D97629 /* Pour Metronome Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pour Metronome Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E276C822B91712A00D97629 /* Pour_Metronome_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pour_Metronome_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		3E276C842B91712A00D97629 /* Pour_Metronome_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pour_Metronome_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E67C69A2B97CDF100E868AA /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		3E67C69C2B9A3D9500E868AA /* CupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupView.swift; sourceTree = "<group>"; };
+		3E67C69E2B9A47DC00E868AA /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 				3E276C692B91712900D97629 /* ContentView.swift */,
 				3E276C6B2B91712A00D97629 /* Assets.xcassets */,
 				3E276C6D2B91712A00D97629 /* Preview Content */,
+				3E67C69A2B97CDF100E868AA /* Polygon.swift */,
+				3E67C69C2B9A3D9500E868AA /* CupView.swift */,
+				3E67C69E2B9A47DC00E868AA /* MetronomeView.swift */,
 			);
 			path = "Pour Metronome Watch App";
 			sourceTree = "<group>";
@@ -310,7 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E276C6A2B91712900D97629 /* ContentView.swift in Sources */,
+				3E67C69F2B9A47DC00E868AA /* MetronomeView.swift in Sources */,
 				3E276C682B91712900D97629 /* Pour_MetronomeApp.swift in Sources */,
+				3E67C69B2B97CDF100E868AA /* Polygon.swift in Sources */,
+				3E67C69D2B9A3D9500E868AA /* CupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

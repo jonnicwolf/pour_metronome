@@ -7,19 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
-        Text("Choose a measurement")
+        Text("Tap to start")
         Spacer()
             .frame(height: 20)
         HStack(content: {
-            CupView(text: "mL", measurement: 1)
-            CupView(text: "oz", measurement: 2)
-        })
-        
+//            CupView(text: "mL")
+            CupView(text: "oz")
+        })        
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }

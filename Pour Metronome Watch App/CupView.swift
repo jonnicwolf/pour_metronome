@@ -8,51 +8,23 @@
 import Foundation
 import SwiftUI
 
-struct MeasurementButtton: View {
-    let measurement: String
-    
+struct CupView: View {
+    let text: String    
+    @State private var isShowing: Bool = false
+        
     var body: some View {
-        Rectangle()
-            .fill(Color.white)
-            .frame(width: 80, height: 80)
-            .foregroundColor(Color.red)
-            .background(Color.blue)
-            .cornerRadius(15)
-            .overlay(
-                Rectangle()
-                    .fill(Color.white)
-                    .background(Color.red)
-                    .offset(y: -10)
-                    .cornerRadius(3)
-                    .overlay(
-                        Rectangle()
-                            .frame(width: 75, height: 75)
-                            .foregroundColor(Color.black)
-                            .offset(y: -7)
-                            .overlay(
-                                Text(measurement)
-//                                    .background(Color.red)
-                            )
-                    )
-            )
+        Button(action: {
+            self.isShowing.toggle()
+        }) {
+            MeasurementButton(measurement: text)
+        }
+        .sheet(isPresented: $isShowing) {
+            FlashingCircle(measurement: self.text)
+        }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
-struct CupView: View {
-    let text: String
-    let measurement: Int
-    @State private var selectedView: Int?
-        
-    var body: some View {
-        NavigationStack {
-            MeasurementButtton(measurement: text)
-                .overlay(
-                    NavigationLink("\(text)") {
-                        MetronomeView()
-                    }
-                )
-            
-        }
-//        .background(Color.red)
-    }
+#Preview {
+    CupView(text: "oz")
 }

@@ -18,6 +18,9 @@
 		3E67C69B2B97CDF100E868AA /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C69A2B97CDF100E868AA /* Polygon.swift */; };
 		3E67C69D2B9A3D9500E868AA /* CupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C69C2B9A3D9500E868AA /* CupView.swift */; };
 		3E67C69F2B9A47DC00E868AA /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C69E2B9A47DC00E868AA /* MetronomeView.swift */; };
+		3E67C6A12B9AC43600E868AA /* MeasurementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C6A02B9AC43600E868AA /* MeasurementButton.swift */; };
+		3E67C6A32B9ADECF00E868AA /* Cup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C6A22B9ADECF00E868AA /* Cup.swift */; };
+		3E67C6A52B9B168000E868AA /* FlashingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67C6A42B9B168000E868AA /* FlashingCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		3E67C69A2B97CDF100E868AA /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
 		3E67C69C2B9A3D9500E868AA /* CupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupView.swift; sourceTree = "<group>"; };
 		3E67C69E2B9A47DC00E868AA /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		3E67C6A02B9AC43600E868AA /* MeasurementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementButton.swift; sourceTree = "<group>"; };
+		3E67C6A22B9ADECF00E868AA /* Cup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cup.swift; sourceTree = "<group>"; };
+		3E67C6A42B9B168000E868AA /* FlashingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashingCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 				3E67C69A2B97CDF100E868AA /* Polygon.swift */,
 				3E67C69C2B9A3D9500E868AA /* CupView.swift */,
 				3E67C69E2B9A47DC00E868AA /* MetronomeView.swift */,
+				3E67C6A02B9AC43600E868AA /* MeasurementButton.swift */,
+				3E67C6A22B9ADECF00E868AA /* Cup.swift */,
+				3E67C6A42B9B168000E868AA /* FlashingCircle.swift */,
 			);
 			path = "Pour Metronome Watch App";
 			sourceTree = "<group>";
@@ -318,9 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E67C6A12B9AC43600E868AA /* MeasurementButton.swift in Sources */,
 				3E276C6A2B91712900D97629 /* ContentView.swift in Sources */,
 				3E67C69F2B9A47DC00E868AA /* MetronomeView.swift in Sources */,
+				3E67C6A32B9ADECF00E868AA /* Cup.swift in Sources */,
 				3E276C682B91712900D97629 /* Pour_MetronomeApp.swift in Sources */,
+				3E67C6A52B9B168000E868AA /* FlashingCircle.swift in Sources */,
 				3E67C69B2B97CDF100E868AA /* Polygon.swift in Sources */,
 				3E67C69D2B9A3D9500E868AA /* CupView.swift in Sources */,
 			);
@@ -486,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pour Metronome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z35246PN3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pour Metronome";
@@ -496,7 +509,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Jaguar-Works.Pour-Metronome.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaguar-Works";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -515,6 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pour Metronome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z35246PN3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pour Metronome";
@@ -525,7 +539,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Jaguar-Works.Pour-Metronome.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaguar-Works";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -543,6 +557,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z35246PN3J;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pour Metronome";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jaguar-Works.Pour-Metronome";
@@ -558,6 +573,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z35246PN3J;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pour Metronome";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jaguar-Works.Pour-Metronome";

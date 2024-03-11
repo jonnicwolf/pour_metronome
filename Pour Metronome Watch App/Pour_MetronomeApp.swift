@@ -11,7 +11,7 @@ import SwiftUI
 struct Pour_Metronome_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

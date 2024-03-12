@@ -13,7 +13,6 @@ struct HomeView: View {
         Spacer()
             .frame(height: 20)
         HStack(content: {
-//            CupView(text: "mL")
             CupView(text: "oz")
         })        
     }

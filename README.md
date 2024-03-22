@@ -7,6 +7,7 @@ Introducing Pour Metronome, the WatchOS app designed by a bartender for bartende
 
 ## Screenshots
 ![Screenshot 2024-03-21 at 10 34 57 PM](https://github.com/jonnicwolf/pour_metronome/assets/75263494/c08bc321-f94c-45e3-bd9d-2835701bebf8)
+![Screenshot 2024-03-21 at 10 40 30 PM](https://github.com/jonnicwolf/pour_metronome/assets/75263494/0b42e928-7514-4032-98d3-787b91890028)
 
 ## Roadmap
 

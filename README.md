@@ -17,6 +17,3 @@ Introducing Pour Metronome, the WatchOS app designed by a bartender for bartende
 - Custom skins for the metronome
 
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
